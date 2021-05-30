@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Style Guide</title>
+   <meta charset="utf-8" />
+   <meta name="description" content="steen til dit vision" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="StyleGuide.css" type="text/css"></link>
+ </head>
+  <body>
+   <header>
+     <div class="flexbox-container-1">
+       <div class="flexbox-item Onoma"><center>Style Guide</center></div>
+       <div class="axis main-axis"></div>
+       <div class="axis cross axis"></div>
+     </div>
+   </header>
+    <nav>
+      <div class="flexbox-container">
+        <div class="flexbox-item-1"><center>START</center></div>
+        <div class="flexbox-item-2"><a href="#Far"><center>FARVER</center></a></div>
+        <div class="flexbox-item-3"><a href="#Graf"><center>GRAFIK</center></a></div>
+        <div class="flexbox-item-4"><a href="#Log"><center>LOGO</center></a></div>
+        <div class="flexbox-item-5"><a href="#Knap"><center>KNAPPER</center></a></div>
+        <div class="flexbox-item-6"><a href="#Typ"><center>TYPOGRAFI</center></a></div>
+        <div class="flexbox-item-7"><a href="#Inp"><center>INPUTS</center></a></div>
+        <div class="flexbox-item-8"><a href="#Ik"><center>IKONER</center></a></div>
+        <div class="flexbox-item-9"><a href="#Navi"><center>NAVIGATION</center></a></div>
+        <div class="axis main-axis"></div>
+        <div class="axis cross axis"></div>
+      </div>
+    </nav>
+     <main>
+       <br/><br/>
+
+           <h1>START</h1>
+        <div class="grid-container1">
+          <div class="grid-Foto1"><a id="Far"><center><h1>QuadSAT<br/>UCL - Gruppe 24<br/>MMD Projekt 6 Eksamensprojekt<br/>
+            STYLE GUIDE som har Design - Elementer og code - Snippets.<br/></h1></a></center></div>
+          <div class="grid-Foto2"><a id="Graf"><h2>FARVER</h2></br></br/><h3> Hex: #002D9B <br/> RGB: R:0 G:45 B:155 <br/> CMYK: 100% 71% 0% 39% <br/><br/>
+            <img src="x2mple.PNG" width="200px" height="80px"/><br/><br/>
+             Hex: #161616 <br/> RGB: R:22 G:22 B:22 <br/> CMYK: 0% 0% 0% 91%  <br/><br/><img src="x1gri.PNG" width="200px" height="80px"/><br/> <br/></h3></a></div>
+
+          <div class="grid-Foto3"><a id="Log"><h2>GRAFIK</h2><br/><br/><h3>GRAFIK PÅ GRÅ BAGGRUND<br/><br/> <img src="fot1.PNG"/><br/><br/></h3></a></div>
+
+          <div class="grid-Foto4"><a id="Knap"><h2>LOGO</h2><br/><br/><h3>LOGO PÅ BlÅ BAGGRUND<br/><br/><img src="fot2.PNG"/><br/> <br/></h3></a></div>
+
+          <div class="grid-Foto5"><a id="Typ"><h2>KNAPPER</h2><br/><br/><h3>KNAPPER PÅ GRÅ BAGGRUND<br/><br/><img src="knap1.PNG"/><br/><br/>
+            <img src="knap2.PNG"/><br/> <br/></h1></a></div>
+
+          <div class="grid-Foto6"><a id="Inp"><h2>TYPOGRAFI</h2><br/><br/><h3>TYPOGRAFI PÅ GRÅ ELLER BLÅ BAGGRUND<br/><br/><img src="tip1.PNG" width="200px"
+            height="80px"/><br/><br/>EKSEMPEL<br/><br/><img src="tip3.PNG" width="200px" height="80px"/><br/><br/><img src="tip2.PNG" width="200px"
+              height="80px"/><br/><br/></h3></a></div>
+
+          <div class="grid-Foto7"><a id="Ik"><h2>INPUTS</h2><br/><br/><h3>INPUTS PÅ BlÅ BAGGRUND<br/><br/><img src="inp1.PNG"/>
+            <br/><br/><img src="inp2.PNG"/><br/> <br/></h3></a></div>
+
+          <div class="grid-Foto8"><a id="Navi"><h2>IKONER</h2><br/><br/><h3></h3><br/><br/><img src="ik1.PNG"width="720px"
+            height="80px"/><br/><br/></a></div>
+
+          <div class="grid-Foto9"><h2>NAVIGATION</h2><br/><br/><h3>NAVIGATION PÅ BlÅ BAGGRUND<br/><br/><img src="nav1.PNG"  width="720px"
+            height="120px"/><br/><br/><img src="nav2.PNG"/><br/><br/></h3></div>
+        </div>
+     </main>
+      <footer>
+       <div class="Telos"><br/>
+         <br/><center>QuadSAT<br/>
+         <br/>STYLE GUIDE<br/></center>
+       </div>
+
+       <!--Scroll To Top button stard-->
+
+     <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+
+      <!--Scroll To Top button end-->
+
+<script>
+//Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
+
+      </footer>
+  </body>
+</html>

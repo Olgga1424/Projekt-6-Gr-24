@@ -1,0 +1,264 @@
+header{
+  width: 100%;
+  height: 90px;
+  background-color: #161616;
+  font-family: segoe;
+}
+a:link{
+  text-decoration: none;
+color: #161616;
+}
+a:visited{
+  color: #161616;
+}
+a:hover{
+  text-decoration: none;
+}
+a:active{
+  color: #161616;
+}
+.flexbox-container-1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  align-content: flex-end;
+  background-color:  #161616;
+  position: fixed;
+}
+.Onoma{
+  width: 60%;
+  height: 50px;
+  background-color: #161616;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: centuri;
+  font-style: italic;
+  position: fixed;
+}
+.flexbox-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  align-content: flex-end;
+  background-color: #002d9b;
+  position: fixed;
+  padding-top: 3px;
+}
+.flexbox-item-1{
+  width: 7%;
+  height: 2em;
+  margin: 1em;
+  padding-top: 3px;
+  background:  #002d9b;
+  font-size: 18px;
+  float: right;
+  font-weight: bold;
+  color: #161616;
+}
+.flexbox-item-2{
+  width: 7%;
+  height: 2em;
+  margin: 1em;
+  padding-top: 3px;
+  background: #002d9b;
+  font-size: 18px;
+  float: right;
+  font-weight: bold;
+  color: #161616;
+}
+.flexbox-item-3{
+  width: 7%;
+  height: 2em;
+  margin: 1em;
+  padding-top: 3px;
+  background: #002d9b;
+  font-size: 18px;
+  float: right;
+  font-weight: bold;
+  color: #161616;
+}
+.flexbox-item-4{
+  width: 7%;
+  height: 2em;
+  margin: 1em;
+  padding-top: 3px;
+  background:#002d9b;
+  font-size: 18px;
+  float: right;
+  font-weight: bold;
+  color: #161616;
+}
+.flexbox-item-5{
+  width: 7%;
+  height: 2em;
+  margin: 1em;
+  padding-top: 3px;
+  background: #002d9b;
+  font-size: 18px;
+  float: right;
+  font-weight: bold;
+  color: #161616;
+}
+.flexbox-item-6{
+  width: 7%;
+  height: 2em;
+  margin: 1em;
+  padding-top: 3px;
+  background: #002d9b;
+  font-size: 18px;
+  float: right;
+  font-weight: bold;
+  color: #161616;
+}
+.flexbox-item-7{
+  width: 7%;
+  height: 2em;
+  margin: 1em;
+  padding-top: 3px;
+  background: #002d9b;
+  font-size: 18px;
+  float: right;
+  font-weight: bold;
+  color: #161616;
+}
+.flexbox-item-8{
+  width: 7%;
+  height: 2em;
+  margin: 1em;
+  padding-top: 3px;
+  background: #002d9b;
+  font-size: 18px;
+  float: right;
+  font-weight: bold;
+  color: #161616;
+}
+.flexbox-item-9{
+  width: 7%;
+  height: 2em;
+  margin: 1em;
+  padding-top: 3px;
+  background:#002d9b;
+  font-size: 18px;
+  float: right;
+  font-weight: bold;
+  color: #161616;
+}
+body{
+  background-color: #161616;
+  margin: 0px;
+}
+main{
+  background-color: #161616;
+  width: 100%;
+  height: 5000px;
+}
+h1{
+  font-size: 30px;
+  font-weight: bold;
+  color:  #002d9b;
+  padding-top: 75px;
+    padding-left: 70px;
+}
+h3{
+  font-size: 19px;
+  font-weight: bold;
+  color:  #002d9b;
+}
+h2{
+  font-size: 29px;
+  font-weight: bold;
+  color:  #002d9b;
+  padding-left: 70px;
+}
+.grid-container1{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-row-gap: 10px;
+
+  float: right;
+  background: #161616;
+  width: 100%;
+  height: 4500px;
+}
+.grid-Foto1{
+
+
+}
+.grid-Foto2 h3{
+text-align: left;
+padding-left: 590px;
+}
+.grid-Foto2 img{
+  float: center;
+}
+.grid-Foto3 h3{
+  text-align: left;
+  padding-left: 590px;
+}
+.grid-Foto4 h3{
+  text-align: left;
+  padding-left: 590px;
+}
+.grid-Foto5 h3{
+  text-align: left;
+  padding-left: 590px;
+}
+.grid-Foto6 h3{
+  text-align: left;
+  padding-left: 590px;
+}
+.grid-Foto7 h3{
+  text-align: left;
+  padding-left: 590px;
+}
+.grid-Foto8 h3{
+  text-align: left;
+  padding-left: 590px;
+}
+.grid-Foto9 h3{
+  text-align: left;
+  padding-left: 590px;s
+}
+footer{
+   width: 100%;
+   height: 150px;
+   background-color: #002d9b;
+   float: right;
+}
+
+.Telos{
+  font-size: 16px;
+  color: #161616;
+  font-weight: bold;
+  font-family: segoe;
+}
+
+/* css for Scroll To Top button start*/
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 50px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #000000; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+/* css for Scroll To Top button end*/
